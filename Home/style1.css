@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+  }
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("b4.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .step-form {
+    padding: 20px;
+  }
+  .background-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    text-align: left;
+    color: #fff;
+  }
+  
+  .background-content h1 {
+    font-size: 4.2rem;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
+  .background-content p {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .nav{
+
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  opacity:0.85;
+  border-radius: 50px;
+}
+
+.nav_item {
+    display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+    width: 80px; /* Set the desired width for the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+    margin-right: 20px; /* Add some space between the logo and navigation links */
+    margin-left: 25px;
+  }
+
+
+.btn-nav{
+    justify-content: space-between;
+    align-items: right;   
+    padding: 10px;
+} 
+.button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px #807e7e;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+    padding: 8px 25px;
+    border: 2.5px solid #fff;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+} 
+.button:hover {
+    background-color: #fff; /* Change the background color on hover */
+    opacity: 1;
+    color: #000; /* Change the text color on hover */
+   
+  }
+.nav_logo {
+  font-size: 25px;
+}
+.nav_item {
+    margin-left: 110px;
+  column-gap: 25px;
+  font-size: 25px;
+  font-weight: 1000;
+  font-family: 'Roboto', sans-serif;
+position: relative;
+transition: color 0.3s ease;
+}
+.nav_link
+{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Add padding to create space between links */
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+  color: #f6ff00;
+  transition: color 0.3s ease;
+}
+.nav_link:hover {
+    color: #ffffff;
+
+}
+nav_link:not(:hover) {
+    color: #00ffc8; /* Reset the background color for non-hovered links */
+  }
+.button:active {
+    transform: scale(0.98);
+  }
+
+
+
+  
